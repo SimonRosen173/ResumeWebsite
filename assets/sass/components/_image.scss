@@ -12,6 +12,14 @@
 		display: inline-block;
 		position: relative;
 
+		&.small {
+			//width: 60%;
+
+			//img {
+			//	max-width: 60%;
+			//}
+		}
+
 		img {
 			border-radius: _size(border-radius);
 			display: block;

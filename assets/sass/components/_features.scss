@@ -35,6 +35,14 @@
 					border-radius: _size(border-radius) _size(border-radius) 0 0;
 					width: 100%;
 				}
+
+				&.padded {
+					padding: 10%;
+
+					img {
+						border-radius: _size(border-radius);
+					}
+				}
 			}
 		}
 

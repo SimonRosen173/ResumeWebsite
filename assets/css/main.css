@@ -1828,6 +1828,10 @@ button,
       .features article .image img {
         border-radius: 5px 5px 0 0;
         width: 100%; }
+      .features article .image.padded {
+        padding: 10%; }
+        .features article .image.padded img {
+          border-radius: 5px; }
   @media screen and (max-width: 980px) {
     .features article {
       margin: 1em 2em 1em 0;
@@ -2397,6 +2401,15 @@ body.is-menu-visible #menu {
       width: 22em;
       overflow: hidden;
       -ms-flex: 1; }
+      .wrapper.spotlight .image.no-radius {
+        border-radius: 0; }
+        .wrapper.spotlight .image.no-radius img {
+          border-radius: 0; }
+      .wrapper.spotlight .image.padded-img img {
+        padding: 40%;
+        border-radius: 0; }
+      .wrapper.spotlight .image.small {
+        width: 6em; }
       .wrapper.spotlight .image img {
         border-radius: 100%;
         width: 100%; }
@@ -2467,6 +2480,8 @@ body.is-menu-visible #menu {
       .wrapper.spotlight .image {
         margin: 0 2em 2em 0;
         width: 32em; }
+      .wrapper.spotlight.small {
+        width: 5em; }
       .wrapper.spotlight:nth-child(2n - 1) .image {
         margin: 0 0 2em 2em; } }
   @media screen and (max-width: 736px) {
@@ -2489,6 +2504,8 @@ body.is-menu-visible #menu {
       .wrapper.spotlight .image {
         width: 19em;
         margin: 0 1.75em 2em 0; }
+        .wrapper.spotlight .image.small {
+          width: 3em; }
       .wrapper.spotlight:nth-child(2n - 1) .image {
         margin: 0 0 2em 1.75em; } }
   @media screen and (max-width: 480px) {
